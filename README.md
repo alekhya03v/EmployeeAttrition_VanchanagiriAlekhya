@@ -60,6 +60,9 @@ The data revealed a few major realities about why people leave:
 - **Matplotlib & Seaborn** (Data visualization)
 
 ## How to Run
-1. Clone this repository.
-2. Ensure you have the `HR_Attrition.csv` dataset in the root directory.
-3. Open the Jupyter Notebook and run it cell by cell to walk through the EDA, preprocessing, model training, and evaluation steps.
+1. Clone this repository to your local machine.
+2. Install the required Python libraries by running the following command in your terminal:
+   ```bash
+   pip install -r requirements.txt
+3. Ensure you have the HR_Attrition.csv dataset in the root directory.
+4. Run the Jupyter Notebook
