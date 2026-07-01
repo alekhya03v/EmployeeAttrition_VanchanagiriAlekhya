@@ -14,10 +14,10 @@ This repository contains an end-to-end data science workflow designed to clean r
 Before building any models, I visualized the data to uncover hidden trends behind why people quit. 
 
 <!-- Upload your "Attrition by Department" or "Job Role" Bar Chart to GitHub and replace the path below -->
-![Attrition by Department and Job Role](charts/attrition)
+![Attrition by Department and Job Role](charts/Attrition_Rate_by_Dept_and_JobRole.png)
 
 <!-- Upload your "Monthly Income vs Attrition" Boxplot to GitHub and replace the path below -->
-![Monthly Income Boxplot](charts/income_attrition.png)
+![Monthly Income Boxplot](charts/BoxPlot_MonthlyIncome.png)
 
 ### Step 2: Data Cleaning & Preprocessing
 - **Cleaning:** Dropped irrelevant columns (like Employee IDs and Standard Hours) and checked for missing values.
@@ -36,16 +36,16 @@ I trained and compared three different classification algorithms to see which pe
 Instead of just looking at accuracy, I evaluated the models using **Precision, Recall, F1-Score, and ROC-AUC** to ensure they were actually catching the employees who were leaving.
 
 <!-- Upload your ROC Curve plot to GitHub and replace the path below -->
-![ROC Curve](charts/roc_curve.png)
+![ROC Curve](charts/ROC_Comparison.png)
 
 <!-- Upload your 3-Model Confusion Matrix grid to GitHub and replace the path below -->
-![Confusion Matrix](charts/confusion_matrix.png)
+![Confusion Matrix](charts/ConfusionMatrix_BestModel.png)
 
 ## Key Insights & Feature Importance
 After training the Random Forest model, I extracted the "Feature Importances" to see exactly what the algorithm learned. 
 
 <!-- Upload your Feature Importance Bar Plot to GitHub and replace the path below -->
-![Feature Importance Plot](charts/feature_importance.png)
+![Feature Importance Plot](charts/Top_10_features_BarChart.png)
 
 The data revealed a few major realities about why people leave:
 1. **Money is the Biggest Driver:** Monthly income is the absolute strongest predictor of turnover. If compensation isn't competitive, employees will eventually look elsewhere.
