@@ -1,7 +1,7 @@
 # Employee Attrition Prediction
 
 ## The Problem
-Every company loses employees—but losing the wrong employees at the wrong time costs businesses heavily in hiring, training, and lost productivity. When top talent walks out the door, it doesn't just hurt the bottom line; it severely disrupts team momentum and institutional knowledge.
+Every company loses employees but losing the wrong employees at the wrong time costs businesses heavily in hiring, training, and lost productivity. When top talent walks out the door, it doesn't just hurt the bottom line; it severely disrupts team momentum and institutional knowledge.
 
 HR departments at large companies spend millions every year trying to figure out who is likely to leave and why, preferably *before* it happens. This is known as Employee Attrition Prediction. 
 
